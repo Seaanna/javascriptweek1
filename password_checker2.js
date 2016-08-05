@@ -1,10 +1,8 @@
-
-
-function areCredentialsValid() {
-  var Id = prompt("What do you want your Id to be?");
-  var password = prompt("What do you want your password to be?");
-
+function areCredentialsValid(id, password) {
   return {
+    userID: id,
+    userPassword: password,
+
     isIdValid: function() {
         Id.length >= 6 && !Id.includes("#") && !Id.includes("!") && !Id.includes("$");
       },

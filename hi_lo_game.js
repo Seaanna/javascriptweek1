@@ -12,8 +12,8 @@ function hiLoGame() {
   // Computer establishes a random number between 1 and 100 inclusive. Assigns the value to var randomNumber
   var randomNumber = getRandomIntInclusive(1,100);
   // alert("The random number is " + randomNumber);
+  // alert("The random number is " + randomNumber);
   // Declares var for user's guess. Prompts for user input.
-  alert("The random number is " + randomNumber);
   var userGuess = prompt("Pick a number between 1 and 100 (inclusive).");
 
 // Begin while loop, limits the number of user attempts to 7.
