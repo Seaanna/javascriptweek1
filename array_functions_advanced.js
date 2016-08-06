@@ -1,4 +1,5 @@
 // function that finds the even numbers in an array and returns them in an array
+// test
 var evenNumbers = [-1, 24, 7, -17, 20, -2];
 function findEvens (){
   evenNumbers.forEach(function(element){

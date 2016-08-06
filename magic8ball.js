@@ -1,3 +1,4 @@
+// test
 var answers = ["Go for it, buddy!", "Are you joking?????", "I guess so.", "What would Dwayne 'The Rock' Johnson do?", "Go to hell, you hamster!"];
 
 var userInput;

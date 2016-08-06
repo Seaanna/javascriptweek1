@@ -6,7 +6,7 @@ function areCredentialsValid(id, password) {
     isIdValid: function() {
         Id.length >= 6 && !Id.includes("#") && !Id.includes("!") && !Id.includes("$");
       },
-
+// test
     isPasswordValid: function() {
         password != "password" && password.length >= 6
         && (password.includes ("#") || password.includes ("$") || password.includes ("!"))

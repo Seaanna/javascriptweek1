@@ -1,7 +1,7 @@
 function isIdValid (Id) {
   return Id.length >= 6 && !Id.includes("#") && !Id.includes("!") && !Id.includes("$");
 }
-
+// test
 function isPasswordValid (password) {
   return password != "password" && password.length >= 6
   && (password.includes ("#") || password.includes ("$") || password.includes ("!"))

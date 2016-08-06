@@ -1,4 +1,4 @@
-// Function that returns a random integer between min (included) and max (included)
+// test// Function that returns a random integer between min (included) and max (included)
 function getRandomIntInclusive(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }

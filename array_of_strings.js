@@ -1,6 +1,6 @@
 var vivian = ['chaoho', 'shanli', 'vivian', 'angela']
 var remy = ['julien', 'monique', 'lemy']
-// Sorts the vivian array by alphabetical order
+// Sorts the vivian array by alphabetical order// test
 vivian.sort();
 // Reverses the remy array
 remy.sort(function(a,b){

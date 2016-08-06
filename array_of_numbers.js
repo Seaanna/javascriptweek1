@@ -1,3 +1,4 @@
+// test
 // highestNumber function challenge
 var numbers = [-1, -4, -2, -20, -21];
 var max = -25;
